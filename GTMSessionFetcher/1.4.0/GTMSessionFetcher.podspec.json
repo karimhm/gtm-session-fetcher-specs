@@ -24,19 +24,19 @@
     {
       "name": "Core",
       "source_files": [
-        "Source/GTMSessionFetcher/GTMSessionFetcher.{h,m}",
-        "Source/GTMSessionFetcher/GTMSessionFetcherLogging.{h,m}",
-        "Source/GTMSessionFetcher/GTMSessionFetcherService.{h,m}",
-        "Source/GTMSessionFetcher/GTMSessionUploadFetcher.{h,m}"
+        "Source/GTMSessionFetcher/Core/GTMSessionFetcher.{h,m}",
+        "Source/GTMSessionFetcher/Core/GTMSessionFetcherLogging.{h,m}",
+        "Source/GTMSessionFetcher/Core/GTMSessionFetcherService.{h,m}",
+        "Source/GTMSessionFetcher/Core/GTMSessionUploadFetcher.{h,m}"
       ],
       "frameworks": "Security"
     },
     {
       "name": "Full",
       "source_files": [
-        "Source/GTMSessionFetcher/GTMGatherInputStream.{h,m}",
-        "Source/GTMSessionFetcher/GTMMIMEDocument.{h,m}",
-        "Source/GTMSessionFetcher/GTMReadMonitorInputStream.{h,m}"
+        "Source/GTMSessionFetcher/Full/GTMGatherInputStream.{h,m}",
+        "Source/GTMSessionFetcher/Full/GTMMIMEDocument.{h,m}",
+        "Source/GTMSessionFetcher/Full/GTMReadMonitorInputStream.{h,m}"
       ],
       "dependencies": {
         "GTMSessionFetcher/Core": [
@@ -49,7 +49,7 @@
       "platforms": {
         "ios": "7.0"
       },
-      "source_files": "Source/GTMSessionFetcher/GTMSessionFetcherLogViewController.{h,m}",
+      "source_files": "Source/GTMSessionFetcher/LogView/GTMSessionFetcherLogViewController.{h,m}",
       "dependencies": {
         "GTMSessionFetcher/Core": [
           "1.4.0"
