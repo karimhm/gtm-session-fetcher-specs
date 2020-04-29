@@ -24,14 +24,14 @@
     {
       "name": "Core",
       "source_files": [
-        "Source/GTMSessionFetcher/Core/**/*.{h,m}",
+        "Source/GTMSessionFetcher/Core/**/*.{h,m}"
       ],
       "frameworks": "Security"
     },
     {
       "name": "Full",
       "source_files": [
-        "Source/GTMSessionFetcher/Full/**/*.{h,m}",
+        "Source/GTMSessionFetcher/Full/**/*.{h,m}"
       ],
       "dependencies": {
         "GTMSessionFetcher/Core": [
