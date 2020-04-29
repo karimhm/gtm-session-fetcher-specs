@@ -24,19 +24,14 @@
     {
       "name": "Core",
       "source_files": [
-        "Source/GTMSessionFetcher/Core/GTMSessionFetcher.{h,m}",
-        "Source/GTMSessionFetcher/Core/GTMSessionFetcherLogging.{h,m}",
-        "Source/GTMSessionFetcher/Core/GTMSessionFetcherService.{h,m}",
-        "Source/GTMSessionFetcher/Core/GTMSessionUploadFetcher.{h,m}"
+        "Source/GTMSessionFetcher/Core/**/*.{h,m}"
       ],
       "frameworks": "Security"
     },
     {
       "name": "Full",
       "source_files": [
-        "Source/GTMSessionFetcher/Full/GTMGatherInputStream.{h,m}",
-        "Source/GTMSessionFetcher/Full/GTMMIMEDocument.{h,m}",
-        "Source/GTMSessionFetcher/Full/GTMReadMonitorInputStream.{h,m}"
+        "Source/GTMSessionFetcher/Full/**/*.{h,m}",
       ],
       "dependencies": {
         "GTMSessionFetcher/Core": [
@@ -49,7 +44,7 @@
       "platforms": {
         "ios": "7.0"
       },
-      "source_files": "Source/GTMSessionFetcher/LogView/GTMSessionFetcherLogViewController.{h,m}",
+      "source_files": "Source/GTMSessionFetcher/LogView/**/*.{h,m}",
       "dependencies": {
         "GTMSessionFetcher/Core": [
           "1.4.0"
