@@ -40,7 +40,7 @@
       ],
       "dependencies": {
         "GTMSessionFetcher/Core": [
-          "1.3.1"
+          "1.4.0"
         ]
       }
     },
@@ -52,7 +52,7 @@
       "source_files": "Source/GTMSessionFetcher/GTMSessionFetcherLogViewController.{h,m}",
       "dependencies": {
         "GTMSessionFetcher/Core": [
-          "1.3.1"
+          "1.4.0"
         ]
       }
     }
