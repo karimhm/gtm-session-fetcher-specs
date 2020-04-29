@@ -24,7 +24,7 @@
     {
       "name": "Core",
       "source_files": [
-        "Source/GTMSessionFetcher/Core/**/*.{h,m}"
+        "Source/GTMSessionFetcher/Core/**/*.{h,m}",
       ],
       "frameworks": "Security"
     },
